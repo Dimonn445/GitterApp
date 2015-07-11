@@ -1,0 +1,20 @@
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dimonn445.gitterappv0001.ChatActivity1">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>-->
+<!--:showAsAction="ifRoom|withText"-->
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_gitter"
+        android:icon="@drawable/ic_home_white_36dp"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/home_gitter">
+    </item>
+
+</menu>
