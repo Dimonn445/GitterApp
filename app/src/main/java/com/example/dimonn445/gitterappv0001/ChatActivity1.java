@@ -1,6 +1,10 @@
 package com.example.dimonn445.gitterappv0001;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
+import android.os.AsyncTask;
 import android.os.StrictMode;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -14,6 +18,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -55,11 +61,9 @@ public class ChatActivity1 extends ActionBarActivity {
         setContentView(R.layout.activity_chat_activity1);
         TOKEN = getIntent().getStringExtra("token");
         setTitle("Rooms");
-        reloadRooms();
-        openWebView();
-    }
 
-    private void reloadRooms(){
+        /*
+
         String[] parts={""};
         try {
             parts = getUserRooms().split(" ");
@@ -67,8 +71,27 @@ public class ChatActivity1 extends ActionBarActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        //mTitle = "Rooms";
-        //mDrawerTitle = getTitle();
+        mRoomsTitles = parts;
+
+        */
+
+        reloadRooms();
+        openWebView();
+    }
+
+    private void reloadRooms(){
+
+        //Try AsyncTask
+        //new ReloadRooms().execute();
+
+        String[] parts={""};
+        try {
+            parts = getUserRooms().split(" ");
+            Log.d("USERROOM",getUserRooms());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         mRoomsTitles = parts;
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
@@ -87,20 +110,17 @@ public class ChatActivity1 extends ActionBarActivity {
         // ActionBarDrawerToggle ties together the the proper interactions
         // between the sliding drawer and the action bar app icon
         mDrawerToggle = new ActionBarDrawerToggle(
-                this,                  /* host Activity */
-                mDrawerLayout,         /* DrawerLayout object */
-                R.drawable.ic_drawer,  /* nav drawer image to replace 'Up' caret */
-                R.string.drawer_open,  /* "open drawer" description for accessibility */
-                R.string.drawer_close  /* "close drawer" description for accessibility */
+                this,                   //host Activity
+                mDrawerLayout,          //DrawerLayout object
+                R.drawable.ic_drawer,   //nav drawer image to replace 'Up' caret
+                R.string.drawer_open,   //"open drawer" description for accessibility
+                R.string.drawer_close   //"close drawer" description for accessibility
         ) {
             public void onDrawerClosed(View view) {
-                //getSupportActionBar().setTitle(mTitle);
                 invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
 
             public void onDrawerOpened(View drawerView) {
-                //getSupportActionBar().setTitle(mTitle);
-                //getSupportActionBar().setTitle(mDrawerTitle);
                 invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
             }
         };
@@ -301,6 +321,31 @@ public class ChatActivity1 extends ActionBarActivity {
             ((ImageView) rootView.findViewById(R.id.image)).setImageResource(imageId);*//*
             getActivity().setTitle(room);
             return rootView;
+        }
+    }*/
+
+    /*private class ReloadRooms extends AsyncTask<Void,Void,String[]> {
+        //private ProgressDialog pDialog;
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected String[] doInBackground(Void... params) {
+            String[] parts={""};
+            try {
+                parts = getUserRooms().split(" ");
+                Log.d("USERROOM",getUserRooms());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return parts;
+        }
+
+        @Override
+        protected void onPostExecute(String[] result) {
+            super.onPostExecute(result);
         }
     }*/
 }

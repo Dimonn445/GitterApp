@@ -57,6 +57,19 @@ public class OauthActivity extends ActionBarActivity {
         Login();
     }
 
+    private void Login()
+    {
+        Log.d("Login", "Login()");
+        pref = getSharedPreferences("AppPref", MODE_PRIVATE);
+        webView = (WebView) findViewById(R.id.webv);
+        webView.clearCache(true);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setBuiltInZoomControls(true);
+        webView.getSettings().setDisplayZoomControls(false);
+        webView.setWebViewClient(webViewClient);
+        webView.loadUrl(BASE_URL + OAUTH_URL + "?client_id=" + CLIENT_ID + "&response_type=code" + "&redirect_uri=" + REDIRECT_URI);
+    }
+
     public OauthActivity(){
         webViewClient = new WebViewClient() {
 
@@ -100,20 +113,6 @@ public class OauthActivity extends ActionBarActivity {
                         }
             }
         };
-    }
-
-
-    private void Login()
-    {
-        Log.d("Login", "Login()");
-        pref = getSharedPreferences("AppPref", MODE_PRIVATE);
-        webView = (WebView) findViewById(R.id.webv);
-        webView.clearCache(true);
-        webView.getSettings().setJavaScriptEnabled(true);
-        webView.getSettings().setBuiltInZoomControls(true);
-        webView.getSettings().setDisplayZoomControls(false);
-        webView.setWebViewClient(webViewClient);
-        webView.loadUrl(BASE_URL + OAUTH_URL + "?client_id=" + CLIENT_ID + "&response_type=code" + "&redirect_uri=" + REDIRECT_URI);
     }
 
     private class TokenGet extends AsyncTask<String, String, JSONObject> {

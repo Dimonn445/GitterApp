@@ -2,39 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/pre-dexed/debug/classes-bb357d8e68e4c919152dce30dbdf93daafe94094.jar" />
+        <dex dex="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/pre-dexed/release/classes-c46cbe0155bb58385b48f30fb2d14b7929cdf12c.jar" />
     </item>
     <item
-        jar="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="/home/dimonn445/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-2dc4dde05eb30c3e3a63df899d9c6de7b62cbb90.jar" />
-    </item>
-    <item
-        jar="/home/dimonn445/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-0e952f4630f6a810f8632a975071ef6ad2f0cb13.jar" />
-    </item>
-    <item
-        jar="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-0719362436e70c3809626f8db6cc7569c0ba78f7.jar" />
-    </item>
-    <item
-        jar="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/pre-dexed/debug/classes-adb19f1c5069d137dea2a0666862de4931d05f4b.jar" />
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/pre-dexed/debug/okio-1.4.0-5d73b7982d12a8908d6d1a947dc03d3db15db2f6.jar" />
     </item>
     <item
         jar="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/libs/okhttp-2.4.0.jar"
@@ -44,32 +23,53 @@
         <dex dex="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-fed136d235b5bc3e3b7f1a668906e519f39f1a6a.jar" />
     </item>
     <item
-        jar="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/pre-dexed/debug/classes-8b5d8067327bfa4b6468de74726cd945964634ec.jar" />
-    </item>
-    <item
         jar="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/libs/okhttp-2.4.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="40340c0748190fe897baf7bffbc1b282734294e5">
-        <dex dex="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-9352de49f609c63dc9bda58ba64f215e5b76d206.jar" />
+        <dex dex="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/pre-dexed/release/okhttp-2.4.0-9352de49f609c63dc9bda58ba64f215e5b76d206.jar" />
     </item>
     <item
-        jar="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/pre-dexed/debug/classes-c46cbe0155bb58385b48f30fb2d14b7929cdf12c.jar" />
+        <dex dex="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/pre-dexed/debug/classes-bb357d8e68e4c919152dce30dbdf93daafe94094.jar" />
     </item>
     <item
-        jar="/home/dimonn445/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jar="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
-        <dex dex="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/pre-dexed/debug/okio-1.4.0-5d73b7982d12a8908d6d1a947dc03d3db15db2f6.jar" />
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/pre-dexed/release/internal_impl-22.2.0-0719362436e70c3809626f8db6cc7569c0ba78f7.jar" />
+    </item>
+    <item
+        jar="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/dimonn445/AndroidStudioProjects/FOR TESTS/app/build/intermediates/pre-dexed/release/classes-8b5d8067327bfa4b6468de74726cd945964634ec.jar" />
+    </item>
+    <item
+        jar="/home/dimonn445/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-0e952f4630f6a810f8632a975071ef6ad2f0cb13.jar" />
+    </item>
+    <item
+        jar="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/pre-dexed/debug/classes-adb19f1c5069d137dea2a0666862de4931d05f4b.jar" />
+    </item>
+    <item
+        jar="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/dimonn445/AndroidStudioProjects/GitterAppV0001/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-2dc4dde05eb30c3e3a63df899d9c6de7b62cbb90.jar" />
     </item>
 
 </items>
